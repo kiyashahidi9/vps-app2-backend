@@ -1,4 +1,5 @@
 const config = require('../utils/config')
+console.log(config.PG_PASSWORD)
 const { Pool } = require('pg')
 
 const Comment = new Pool({
