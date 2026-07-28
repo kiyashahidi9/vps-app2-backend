@@ -2,7 +2,7 @@ const commentsRouter = require('express').Router()
 const Comment = require('../models/comment')
 
 commentsRouter.get('/', async (request, response) => {
-  const query = 'SELECT * FROM comments'
+  const query = 'SELECT * FROM comments ORDER BY created_at DESC'
   const comments = await Comment.query(query)
   response.json(comments.rows)
 })
