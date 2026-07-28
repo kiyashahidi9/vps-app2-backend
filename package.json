@@ -1,0 +1,22 @@
+{
+  "name": "vps-app2-backend",
+  "version": "1.0.0",
+  "description": "server that connects to mongoDB and postgreSQL",
+  "license": "ISC",
+  "author": "Kiya Shahidi",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb": "^7.5.0",
+    "mongoose": "^9.8.1",
+    "pg": "^8.22.0"
+  }
+}

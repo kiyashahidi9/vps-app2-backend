@@ -1,0 +1,6 @@
+POST http://localhost:3000/api/quotes
+Content-Type: application/json
+
+{
+  "author": "this shouldn't work"
+}

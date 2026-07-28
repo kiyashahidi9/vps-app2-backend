@@ -1,0 +1,1 @@
+DELETE http://localhost:3000/api/quotes/6a68e94d68fba5d76b217c01
