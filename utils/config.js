@@ -1,4 +1,5 @@
 require('dotenv').config()
+console.log('PG_PASSWORD:', JSON.stringify(process.env.PG_PASSWORD))
 
 const PORT = process.env.PORT
 const MONGODB_URI = process.env.MONGODB_URI
